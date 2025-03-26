@@ -11,5 +11,5 @@ jobs:
       
       - name: checkout repository code
         uses: actions/checkout@v4
-      - run: echo "$(cat test_poc.txt)"
+      - run: echo "$(cat hello_world.txt)"
        
