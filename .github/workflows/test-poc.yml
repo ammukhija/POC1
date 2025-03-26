@@ -6,8 +6,10 @@ jobs:
   test-poc-job:
   
       runs-on: ubuntu-latest
+      
       steps:
-      - uses: actions/checkout@v4
+      
       - name: checkout repository code
-      - run: echo "$(cat test-poc.txt)"
+        uses: actions/checkout@v4
+      - run: echo "$(cat test_poc.txt)"
        
