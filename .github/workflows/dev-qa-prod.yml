@@ -1,4 +1,4 @@
-name: build-qa-prod
+name: build-qa-production
 
 on: push
 
